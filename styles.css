@@ -1,0 +1,122 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla";
+    text-align: left;
+    font-size: 16px;
+}
+div{
+    display: inline-block;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    padding: 3rem 3rem 0 3rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h2{
+    color: #ffffff;
+    margin: 0;
+    padding: 1.5rem 3rem 0 3rem;
+    font-size: 1.5rem;
+}
+p{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 3rem 3rem 3rem;
+    line-height: 1.5rem;
+}
+/*main section*/
+.main{
+    padding: 10% 20%;
+    position: table;
+}
+/*join section*/
+.join{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.join p{
+    color: hsl(218, 22%, 67%);
+}
+.free{
+    color: hsl(71, 73%, 54%);
+}
+/*subscription section*/
+.subscription{
+    width: 50%;
+    height: 19rem;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 0.5rem;
+}
+.subscription h1{
+    display: inline-block;
+    padding: 1.5rem 0 0 3rem;
+    color: #ffffff;
+}
+.subscription h2{
+    padding-top: 3rem;
+}
+.subscription p {
+    color: #ffffff;
+    padding-bottom: 2rem;
+}
+.subscription h1{
+    font-size: 2rem;
+}
+.per-month {
+    padding-left: 1rem;
+    padding-bottom: 0;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/*about section*/
+.about{
+    width: 50%;
+    height: 19rem;
+    float: right;
+    display: block;
+    position: relative;
+    background-color: hsl(179, 57%, 49%);
+    border-radius: 0 0 0.5rem 0;
+}
+.about h2{
+    padding-top: 3rem;
+}
+.about p {
+    color: #ffffff;
+    padding-right: 7rem;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border-style: none;
+    padding: 1rem 6rem;
+    margin: 0 0 3rem 3rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+/*mobile*/
+@media (max-width:375px) {
+    .main{
+        padding: 10% 2.5%;
+    }
+    .subscription{
+        width: 100%;
+        border-radius: 0;
+    }
+    .about{
+        width: 100%;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; display: block;}
+.attribution a { color: hsl(228, 45%, 44%); }
